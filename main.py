@@ -1,5 +1,4 @@
-#https://www.geeksforgeeks.org/multiplicative-congruence-method-for-generating-pseudo-random-numbers/
-  
+ 
 def multiplicativeCongruentialMethod(Xo, m, a, randomNums, noOfRandomNums): 
     randomNums[0] = Xo 
     for i in range(1, noOfRandomNums): 
